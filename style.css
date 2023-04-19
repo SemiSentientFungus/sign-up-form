@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/home/alex/repos/sign-up-form/Norse-Bold.otf);
+}
+
+* {
+    font-family:'Norse-Bold', serif;
+}
