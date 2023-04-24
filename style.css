@@ -4,5 +4,62 @@
 }
 
 * {
-    font-family:'Norse-Bold', serif;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.content {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/* right hand side content*/
+.picture {
+    height: 100%;
+    width: 40%;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    padding-top: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+}
+
+.odin {
+    background-image: url(odin-lined.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+
+/*left hand side content*/
+.text {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    height: 20%;
+    text-justify: bottom;
+    bottom: 10px;
+}
+
+form.login {
+    height: 80%;
 }
