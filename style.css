@@ -6,34 +6,32 @@
 * {
     margin: 0;
     padding: 0;
-    width: 100%
 }
 
 .content {
-    position: absolute;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: row;
+    box-sizing: border-box  ;
+    border: 2px solid black;
 }
 /* right hand side content*/
 .picture {
-    height: 100%;
-    width: 40%;
-    background-image: url("background.jpg");
+    flex: 2 1 0;
+    background-image: url(background.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
 }
 
 .icon {
-    padding-top: 40%;
     width: 100%;
+    height: 100px;
+    margin-top: 300px;
     display: flex;
-    flex-direction: row ;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.60);
 }
 
 .odin {
@@ -44,22 +42,14 @@
     width: 100px;
 }
 
+.logo {
+    font-size: 100px;
+    text-align: center;
+    font-family: Norse-bold;    
+    color: wheat;
+}
 
 /*left hand side content*/
 .text {
-    height: 100%;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.header {
-    height: 20%;
-    text-justify: bottom;
-    bottom: 10px;
-}
-
-form.login {
-    height: 80%;
+    flex: 3 1 0;
 }
